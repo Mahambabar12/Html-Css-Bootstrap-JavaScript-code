@@ -1,0 +1,16 @@
+h1{
+    color: rgb(175, 6, 6);
+    color: #084099;
+}
+*{
+   background-color: rgb(238, 188, 188);
+}
+#headingOne{
+    color: aqua;
+}
+#headingTwo{
+    background-color: white;
+}
+.myClass{
+    background-color: burlywood;
+}

@@ -1,0 +1,32 @@
+body{
+    background-image: url(./nature.jpg);
+    background-size: cover;
+}div{
+    background-color: rgb(137, 68, 202);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+    display: inline-block;
+    position: static;
+    top: 10px;
+}
+#box2{
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+#box3{
+    position: sticky;
+    top: 200px;
+}
+#box4{
+    position: fixed;
+    right: 10px;
+    top: 0px;
+}
+#box1{
+    background-image: url(./nature.jpg);
+    background-size:cover;
+}

@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 200px 100px 200px; */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(100px, auto);
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.item{
+    background-color: yellowgreen;
+    border: 3px solid green;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+}
+#item-1{
+    /* grid-column-start: 2;
+    grid-column-end: 3; */
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

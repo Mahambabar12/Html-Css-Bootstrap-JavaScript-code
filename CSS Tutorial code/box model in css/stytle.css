@@ -1,0 +1,32 @@
+    /* div{
+    height: 100px;
+    background-color: rgb(158, 255, 255);
+    width: 100px;    */
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: red; */
+     /* border: 2px solid rgb(252, 194, 194);
+     padding: 2px 3px 4px 5px;
+   margin: 2px 3px 4px 5px;
+    } */
+*{
+    color: white;
+}
+
+#Navbar{
+    height: 25px;
+    background-color: black;
+    border-style: solid;
+    border-color: burlywood;
+}
+#Logo{
+    color: yellow;
+    font-size: 20px;
+}
+button{
+    background-color: yellow;
+}
+a{
+    margin-right: 50px;
+    text-decoration: none;
+}
